@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ } 
+
+.assignment-todo {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background: #014367;
+    color: #fff;
+}
+.assignment-todo h1 {}
+
+.create-task {}
+.create-task input#inputText {
+    width: calc(100% - 200px);
+    max-width: 500px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+}
+.create-task .btn-create {
+  padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    background: #52b600;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.task-bg {
+  display: flex;
+  margin-top: 40px;
+}
+.task-bg .task-list {
+  width: 50%;
+    background: #00334f;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 30px;
+}
+.task-bg .task-completed {
+    width: 50%;
+    background: #00334f;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 30px;
+}
+
+.task-list {}
+.task-list h2 {
+  margin-top: 0;
+}
+
+.task-completed {}
+.task-completed h2 {
+  margin-top: 0;
+}
+
+.div-item {
+    padding: 20px;
+    background: #014367;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(255 255 255 / 13%);
+    text-align: left;
+    display: block;
+    transition: all 1s;
+    position: relative;
+}
+.div-item .div-item-text {}
+.div-item .check-input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.div-item .delete-btn {
+    float: right;
+    margin-right: 6px;
+    padding: 6px 14px 4px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background: #f33131;
+    color: #fff;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+.div-item .edit-btn {
+    float: right;
+    margin-right: 6px;
+    padding: 6px 14px 4px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background: #00a4db;
+    color: #fff;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.date {
+  position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 12px;
+    color: rgb(255 255 255 / 32%);
+}
